@@ -11,5 +11,5 @@ module.exports = class DepthCalculator {
         });
       })(arr);
       return depths.sort()[depths.length-1];
-    }
+    } 
 };

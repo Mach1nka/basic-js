@@ -31,7 +31,7 @@ module.exports = function transform(arr) {
      }else{arr.splice(i,1);}
    }
  }
-  /*for(let i=0; i<arr.length; i++){   //  должно работать по условию, но в этом решении последовательности работают не одновременно((( ,а последовательно 
+  /*for(let i=0; i<arr.length; i++){   //  должно работать по условию, но в этом решении команды работают не одновременно((( ,а последовательно 
     if(arr.includes("--discard-next")) {
       arrInd = arr.findIndex(elem => elem === "--discard-next");
       if (arrInd === arr.length-1) {
